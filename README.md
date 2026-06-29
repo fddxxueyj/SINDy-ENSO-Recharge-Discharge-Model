@@ -19,8 +19,6 @@ Since the recharge–discharge model is a dynamical system, a straightforward ap
 
 $$Y = c\Theta(X),$$
 
-where $\Theta(X)=(f_1(X),f_2(X),..., f_n(X))^T$ is the function library.
+where $\Theta(X)=(f_1(X),f_2(X),..., f_n(X))^T$ is the function library. Here the labels $Y$ are the derivatives of $h$ and $T$ and the library contains the following cubic polynomials,
 
-Here the labels $Y$ are the derivatives of $h$ and $T$ and the library contains the following cubic polynomials,
-
-$$\Theta(h, T) = (h, T, hT, h^2, T^2, h^3, T^3, h^2 T, h T^2)$$
+$$\Theta(h, T) = (h, T, hT, h^2, T^2, h^3, T^3, h^2 T, h T^2)^T$$
