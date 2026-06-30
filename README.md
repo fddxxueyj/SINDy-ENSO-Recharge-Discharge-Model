@@ -32,4 +32,6 @@ SINDy is mainly deployed in `SINDy_ReDischarge.ipynb`, where we take the advanta
 # 4. Results
 
 ## 4.1 Recontructed ODEs
+The coefficients fitted by SINDy is ploted as follow,
+
 
