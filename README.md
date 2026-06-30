@@ -49,7 +49,7 @@ Surprisingly but reasonably, the reconstructed ODEs poccess insightful physical 
 
 ## 4.2 Predictions for an El Niño event
 
-We choose an extreme El Niño event 1997/1998, which impacted the global climate, such as the flood disaster in China. The prediction begins from 1997-04. 
+We choose an extreme El Niño event 1997/98, which impacted the global climate and weather significantly, such as the flood disaster in China. The prediction begins from 1997-04. 
 
 ![alt text](https://raw.githubusercontent.com/fddxxueyj/SINDy-ENSO-Recharge-Discharge-Model/main/results/sindy_pred.png)
 
