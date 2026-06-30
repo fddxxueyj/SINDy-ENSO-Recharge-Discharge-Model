@@ -55,4 +55,14 @@ We choose an extreme El Niño event 1997/98, which impacted the global climate a
 
 The system can approximately predict the tendency, amplitude and period of the El Niño event and the subsequent La Niña event, but is difficult to model the transition from strong-ENSO cycle to the weak-ENSO phase. This deficiency may attribute to the lack of sufficient damping and stochastic excitation. Generally speaking, it is impossible for a conceptual model to conduct the precise forecasting task.
 
-## 4.3 
+## 4.3 Dynamical Properties
+
+The reconstructed system is a quadratic planar autonomous system. Its extreme behavior is related to the Hilbert 16th problem, which has not been solved analytically till now. 
+
+### 4.3.2 The stable point and the stability
+
+
+
+
+
+
