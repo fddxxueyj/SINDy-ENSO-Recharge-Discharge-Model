@@ -32,6 +32,13 @@ SINDy is mainly deployed in `SINDy_ReDischarge.ipynb`, where we take the advanta
 # 4. Results
 
 ## 4.1 Recontructed ODEs
-The coefficients fitted by SINDy is ploted as follow,
+The coefficients fitted by the SINDy is ploted as follow,
 
+![alt text](https://raw.githubusercontent.com/fddxxueyj/SINDy-ENSO-Recharge-Discharge-Model/main/results/sindy_weights.png)
 
+The reconstructed ODEs can be formulated as
+
+$$\frac{dT}{dt} = Dh + A(h - C)T,$$
+$$\frac{dh}{dt} = -ET +B (T + R_h^*) h,$$
+
+where $A$, $B$, $C$, $D$, $E$ and $R_h^*$ are all positive constants. 
