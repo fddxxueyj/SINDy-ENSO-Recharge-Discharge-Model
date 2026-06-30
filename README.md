@@ -21,7 +21,9 @@ $$Y = c\Theta(X),$$
 
 where $\Theta(X)=(f_1(X),f_2(X),..., f_n(X))^T$ is the function library. Here the labels $Y$ are the derivatives of $h$ and $T$ and the library contains the following polynomials,
 
-$$\Theta(h, T) = (h, T, hT, h^2, T^2, h^3, T^3, h^2 T, h T^2)^T.$$
+$$\Theta(h, T) = (h, T, hT, h^2, T^2, h^3, T^3, h^2 T, h T^2)^T,$$
+
+inspired by Jin's model.
 
 # 3. Data and Deployment
 
@@ -51,6 +53,6 @@ We choose an extreme El Niño event 1997/1998, which impacted the global climate
 
 ![alt text](https://raw.githubusercontent.com/fddxxueyj/SINDy-ENSO-Recharge-Discharge-Model/main/results/sindy_pred.png)
 
-The system can approximately predict the tendency, amplitude and period of the El Niño event and the subsequent La Niña event, but is difficult to model the transition from strong ENSO cycle to the weak-ENSO phase. This deficiency may attribute to the lack of sufficient damping and stochastic excitation. Generally speaking, it is impossible for a conceptual model to conduct the precise forecasting task.
+The system can approximately predict the tendency, amplitude and period of the El Niño event and the subsequent La Niña event, but is difficult to model the transition from strong-ENSO cycle to the weak-ENSO phase. This deficiency may attribute to the lack of sufficient damping and stochastic excitation. Generally speaking, it is impossible for a conceptual model to conduct the precise forecasting task.
 
 ## 4.3 
