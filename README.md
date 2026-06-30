@@ -59,10 +59,24 @@ The system can approximately predict the tendency, amplitude and period of the E
 
 The reconstructed system is a quadratic planar autonomous system. Its extreme behavior is related to the Hilbert 16th problem, which has not been solved analytically till now. 
 
-### 4.3.2 The stable point and the stability
+### 4.3.1 The Stable point, Stability and Period
 
+The system poccess two stable point, which are clear on the phase portrait.
 
+![alt text](https://raw.githubusercontent.com/fddxxueyj/SINDy-ENSO-Recharge-Discharge-Model/main/results/phase_protrait.png)
 
+First considering the original point, the Jacobian of the system at $(0,0)$ is
 
+$$J(0,0) = 
+\left(
+\begin{matrix}
+0.270 & -1.883 \\
+1.839 & -0.260  
+\end{matrix}
+\right)
+$$
 
+The eigenvalues for $J(0,0)$ are $\lambda_{1,2} = 0.005 \pm 1.842 i$. Thus the system is weakly unstable around $(0,0)$ and the preiod is $\frac{2\pi}{\omega} \approx 3.4$ years, within the observed period of ENSO. Another stable point is a saddle point, which will lead to divergence. This saddle point implies that the normalized SSTA in the eastern Pacific would never reach $-2.5$ in most cases. This result is in line with the observation that La Niña phenomena were relatively weak. 
+
+### 4.3.2 Limit Cycle and Asymmetry
 
