@@ -19,6 +19,17 @@ Since the recharge–discharge model is a dynamical system, a straightforward ap
 
 $$Y = c\Theta(X),$$
 
-where $\Theta(X)=(f_1(X),f_2(X),..., f_n(X))^T$ is the function library. Here the labels $Y$ are the derivatives of $h$ and $T$ and the library contains the following cubic polynomials,
+where $\Theta(X)=(f_1(X),f_2(X),..., f_n(X))^T$ is the function library. Here the labels $Y$ are the derivatives of $h$ and $T$ and the library contains the following polynomials,
 
-$$\Theta(h, T) = (h, T, hT, h^2, T^2, h^3, T^3, h^2 T, h T^2)^T$$
+$$\Theta(h, T) = (h, T, hT, h^2, T^2, h^3, T^3, h^2 T, h T^2)^T.$$
+
+# 3. Data and Deployment
+
+The monthly data are downloaded from GODAS by the script `download_godas.py`. The climatology can be artificially downloaded from `https://www.psl.noaa.gov//data/gridded/data.godas.html`. The notbook `re_discharge_variables.ipynb` is designed to get the time series of $h$ and $T$, which are saved in the file `ENSO_h_sst_series.csv`. 
+
+SINDy is mainly deployed in `SINDy_ReDischarge.ipynb`, where we take the advantage of the package `PySINDy`.
+
+# 4. Results
+
+## 4.1 Recontructed ODEs
+
