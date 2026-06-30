@@ -35,7 +35,7 @@ SINDy is mainly deployed in `SINDy_ReDischarge.ipynb`, where we take the advanta
 
 # 4. Results
 
-## 4.1 Recontructed ODEs
+## 4.1 Reconstructed ODEs
 The coefficients fitted by the SINDy is ploted as follow,
 
 ![alt text](https://raw.githubusercontent.com/fddxxueyj/SINDy-ENSO-Recharge-Discharge-Model/main/results/sindy_weights.png)
