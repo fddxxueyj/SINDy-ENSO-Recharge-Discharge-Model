@@ -42,3 +42,5 @@ $$\frac{dT}{dt} = Dh + A(h - C)T,$$
 $$\frac{dh}{dt} = -ET +B (T + R_h^*) h,$$
 
 where $A$, $B$, $C$, $D$, $E$ and $R_h^*$ are all positive constants. 
+
+Surprisingly but reasonably, the reconstructed ODEs poccess insightful physical meanings. First, the terms, $Dh$ and $ET$, are same as the classical recharge-discharge model, respectively represnting the recharge and discharge process. However, the remaining terms, $A(h-C)T$ and $B(T+R_h^*)h$, are quite different from those in the conventional one. As shown in the figure, the overall effects of these two terms to the system are both positive, so they can be physically regarded as the nonlinear Bjerknes feedback. The cross term $hT$ is contained in both equations and shows the positive effect, which means the growth rate of the Bjerknes feedback is not a constant (like the setting in Jin's model) but depends on the magnitude of another variable. Moreover, the nonlinear positive feedback is also modified by a constant. This constant may contribute to the amplitude asymmetry between El Niño and La Niña. 
