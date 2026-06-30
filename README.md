@@ -47,4 +47,10 @@ Surprisingly but reasonably, the reconstructed ODEs poccess insightful physical 
 
 ## 4.2 Predictions for an El Niño event
 
-We choose an extreme El Niño event 1997/1998, which impacted the global climate, such as the flood disaster in China. The initial time is defined at 1997-04. 
+We choose an extreme El Niño event 1997/1998, which impacted the global climate, such as the flood disaster in China. The prediction begins from 1997-04. 
+
+![alt text](https://raw.githubusercontent.com/fddxxueyj/SINDy-ENSO-Recharge-Discharge-Model/main/results/sindy_pred.png)
+
+The system can approximately predict the tendency, amplitude and period of the El Niño event and the subsequent La Niña event, but is difficult to model the transition from strong ENSO cycle to the weak-ENSO phase. This deficiency may attribute to the lack of sufficient damping and stochastic excitation. Generally speaking, it is impossible for a conceptual model to conduct the precise forecasting task.
+
+## 4.3 
