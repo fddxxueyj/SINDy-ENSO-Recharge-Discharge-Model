@@ -137,7 +137,7 @@ The trajectories also exhibit a pronounced asymmetry between the warm and cold p
 
 Our results suggest that this asymmetry can be reproduced by introducing only the lowest-order nonlinear interaction term, $hT$, into the conventional recharge–discharge oscillator. In the reconstructed system, the cross interaction acts as a state-dependent nonlinear Bjerknes feedback, whose strength varies with the thermocline state. In particular, the term $A(h-C)T$ implies the existence of a La Niña-like threshold, below which the positive feedback is substantially weakened, thereby suppressing the growth of cold events and naturally producing the observed warm–cold asymmetry.
 
-# 6. Reference
+# Reference
 
 Burgers G, Stephenson D B. The “normality” of el niño[J]. Geophysical Research Letters, 1999, 26(8): 1027-1030.
 
