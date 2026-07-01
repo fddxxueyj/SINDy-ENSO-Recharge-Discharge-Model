@@ -82,3 +82,4 @@ The eigenvalues for $J(0,0)$ are $\lambda_{1,2} = 0.005 \pm 1.842 i$. Thus the s
 
 ### 4.3.2 Limit Cycle and Asymmetry
 
+![alt text](https://raw.githubusercontent.com/fddxxueyj/SINDy-ENSO-Recharge-Discharge-Model/main/results/sindy_traj.png)
