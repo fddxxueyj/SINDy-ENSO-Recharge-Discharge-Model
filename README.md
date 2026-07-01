@@ -80,7 +80,7 @@ $$
 
 The eigenvalues for $J(0,0)$ are $\lambda_{1,2} = 0.005 \pm 1.842 i$. Thus the system is weakly unstable around $(0,0)$ and the preiod is $\frac{2\pi}{\omega} \approx 3.4$ years, within the observed period of ENSO. Another stable point is a saddle point, which will lead to divergence. This saddle point implies that the normalized SSTA in the eastern Pacific would never reach $-2.5$ in most cases. This result is in line with the observation that La Niña phenomena were relatively weak. 
 
-### 5.2 Limit Cycle
+## 5.2 Limit Cycle
 
 ![alt text](https://raw.githubusercontent.com/fddxxueyj/SINDy-ENSO-Recharge-Discharge-Model/main/results/sindy_traj.png)
 
@@ -131,6 +131,6 @@ The figure above shows that trajectories starting from different initial conditi
 
 The existence of the stable limit cycle implies that the reconstructed oscillator is self-sustained and does not require external stochastic forcing to maintain the interannual oscillation. 
 
-# 5.3 Asymmetry
+## 5.3 Asymmetry
 
 
