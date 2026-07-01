@@ -84,6 +84,53 @@ The eigenvalues for $J(0,0)$ are $\lambda_{1,2} = 0.005 \pm 1.842 i$. Thus the s
 
 ![alt text](https://raw.githubusercontent.com/fddxxueyj/SINDy-ENSO-Recharge-Discharge-Model/main/results/sindy_traj.png)
 
+The trajectories of the reconstructed system suggests the existence of a stable periodic orbit. Trajectories initialized near the origin spiral outward, whereas trajectories starting from sufficiently large amplitudes spiral inward and eventually approach the same closed curve. This behavior indicates the existence of a trapping region and strongly suggests the presence of a stable limit cycle.
+
+To analyze the radial evolution of the system, we introduce the Lyapunov-like function
+
+$$
+V(h,T)=\frac12(h^2+T^2),
+$$
+
+whose time derivative along the trajectories is
+
+$$
+\dot V
+=h\dot h+T\dot T.
+$$
+
+Substituting the reconstructed equations, yields
+
+$$ \dot V=0.270h^2-0.044hT-0.260T^2+0.406h^2T+0.679hT^2.  $$
+
+Since the origin is a weakly unstable focus (in 4.3.1), trajectories in a sufficiently small neighborhood of the origin satisfy
+
+$$
+\dot V>0.
+$$
+
+Numerically, trajectories initialized from $(h,T)=(0,0.01)$ spiral outward.
+
+In contrast, trajectories initialized from large amplitudes, for example $(h,T)=(2,2)$, spiral inward. This indicates that there exists a sufficiently large closed curve $\Gamma_2$ on which the vector field points inward.
+
+Consequently, one may construct an annular trapping region
+
+$$
+\mathcal A=
+\{(h,T):\Gamma_1\subseteq(h,T)\subseteq\Gamma_2\},
+$$
+
+where $\Gamma_1$ is a small closed curve surrounding the unstable focus and $\Gamma_2$ is an outer invariant boundary.
+
+Since the only equilibrium enclosed by $\mathcal A$ is the unstable focus at the origin, the $\omega$-limit set of trajectories within $\mathcal A$ cannot be an equilibrium point. According to the `Poincaré–Bendixson theorem`, the system therefore possesses at least one periodic orbit:
+
+> **Theorem 1.**
+> The reconstructed nonlinear recharge oscillator admits at least one stable limit cycle.
+
+The figure above shows that trajectories starting from different initial conditions converge to the same periodic orbit, suggesting that the limit cycle is attracting.
+
+The existence of the stable limit cycle implies that the reconstructed oscillator is self-sustained and does not require external stochastic forcing to maintain the interannual oscillation. 
+
 # 5. The Role of Stochastic Forcing
 
 
