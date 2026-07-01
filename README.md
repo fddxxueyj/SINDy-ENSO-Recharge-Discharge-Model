@@ -57,11 +57,11 @@ We choose an extreme El Niño event 1997/98, which impacted the global climate a
 
 The system can approximately predict the tendency, amplitude and period of the El Niño event and the subsequent La Niña event, but is difficult to model the transition from strong-ENSO cycle to the weak-ENSO phase. This deficiency may attribute to the lack of sufficient damping and stochastic excitation. Generally speaking, it is impossible for a conceptual model to conduct the precise forecasting task.
 
-## 4.3 Dynamical Properties
+# 5. Dynamical Properties
 
 The reconstructed system is a quadratic planar autonomous system. Its extreme behavior is related to the Hilbert 16th problem, which has not been solved analytically till now. 
 
-### 4.3.1 The Stable point, Stability and Period
+## 5.1 The Stable point, Stability and Period
 
 The system poccess two equilibrium point, which are clear on the phase portrait.
 
@@ -80,7 +80,7 @@ $$
 
 The eigenvalues for $J(0,0)$ are $\lambda_{1,2} = 0.005 \pm 1.842 i$. Thus the system is weakly unstable around $(0,0)$ and the preiod is $\frac{2\pi}{\omega} \approx 3.4$ years, within the observed period of ENSO. Another stable point is a saddle point, which will lead to divergence. This saddle point implies that the normalized SSTA in the eastern Pacific would never reach $-2.5$ in most cases. This result is in line with the observation that La Niña phenomena were relatively weak. 
 
-### 4.3.2 Limit Cycle and Asymmetry
+### 5.2 Limit Cycle
 
 ![alt text](https://raw.githubusercontent.com/fddxxueyj/SINDy-ENSO-Recharge-Discharge-Model/main/results/sindy_traj.png)
 
@@ -131,6 +131,6 @@ The figure above shows that trajectories starting from different initial conditi
 
 The existence of the stable limit cycle implies that the reconstructed oscillator is self-sustained and does not require external stochastic forcing to maintain the interannual oscillation. 
 
-# 5. The Role of Stochastic Forcing
+# 5.3 Asymmetry
 
 
