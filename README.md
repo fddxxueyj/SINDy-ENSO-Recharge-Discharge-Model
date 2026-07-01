@@ -63,7 +63,7 @@ The reconstructed system is a quadratic planar autonomous system. Its extreme be
 
 ### 4.3.1 The Stable point, Stability and Period
 
-The system poccess two stable point, which are clear on the phase portrait.
+The system poccess two equilibrium point, which are clear on the phase portrait.
 
 ![alt text](https://raw.githubusercontent.com/fddxxueyj/SINDy-ENSO-Recharge-Discharge-Model/main/results/phase_protrait.png)
 
