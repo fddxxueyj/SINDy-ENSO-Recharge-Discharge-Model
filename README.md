@@ -148,3 +148,5 @@ Wang C. A review of ENSO theories[J]. National Science Review, 2018, 5(6): 813-8
 Champion K, Lusch B, Kutz J N, et al. Data-driven discovery of coordinates and governing equations[J]. Proceedings of the National Academy of Sciences, 2019, 116(45): 22445-22451.
 
 De Silva B M, Champion K, Quade M, et al. Pysindy: a python package for the sparse identification of nonlinear dynamics from data[J]. arXiv preprint arXiv:2004.08424, 2020.
+
+Hirsch M W, Devaney R L, Smale S. Differential equations, dynamical systems, and linear algebra[M]. Academic press, 1974.
