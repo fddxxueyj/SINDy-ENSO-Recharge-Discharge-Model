@@ -61,7 +61,7 @@ The system can approximately predict the tendency, amplitude and period of the E
 
 The reconstructed system is a quadratic planar autonomous system. Its extreme behavior is related to the Hilbert 16th problem, which has not been solved analytically till now. 
 
-## 5.1 The Stable point, Stability and Period
+## 5.1 The Equilibrium Point, Stability and Period
 
 The system poccess two equilibrium point, which are clear on the phase portrait.
 
