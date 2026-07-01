@@ -133,4 +133,18 @@ The existence of the stable limit cycle implies that the reconstructed oscillato
 
 ## 5.3 Asymmetry
 
+The trajectories also exhibit a pronounced asymmetry between the warm and cold phases of ENSO, characterized by stronger El Niño events and comparatively weaker La Niña events. This positive skewness has long been recognized in observations (Burgers and Stephenson, 1999), yet it remains difficult to reproduce within the framework of classical conceptual models.
 
+Our results suggest that this asymmetry can be reproduced by introducing only the lowest-order nonlinear interaction term, $hT$, into the conventional recharge–discharge oscillator. In the reconstructed system, the cross interaction acts as a state-dependent nonlinear Bjerknes feedback, whose strength varies with the thermocline state. In particular, the term $A(h-C)T$ implies the existence of a La Niña-like threshold, below which the positive feedback is substantially weakened, thereby suppressing the growth of cold events and naturally producing the observed warm–cold asymmetry.
+
+# 6. Reference
+
+Burgers G, Stephenson D B. The “normality” of el niño[J]. Geophysical Research Letters, 1999, 26(8): 1027-1030.
+
+Jin F F. An equatorial ocean recharge paradigm for ENSO. Part I: Conceptual model[J]. Journal of the atmospheric sciences, 1997, 54(7): 811-829.
+
+Wang C. A review of ENSO theories[J]. National Science Review, 2018, 5(6): 813-825.
+
+Champion K, Lusch B, Kutz J N, et al. Data-driven discovery of coordinates and governing equations[J]. Proceedings of the National Academy of Sciences, 2019, 116(45): 22445-22451.
+
+De Silva B M, Champion K, Quade M, et al. Pysindy: a python package for the sparse identification of nonlinear dynamics from data[J]. arXiv preprint arXiv:2004.08424, 2020.
