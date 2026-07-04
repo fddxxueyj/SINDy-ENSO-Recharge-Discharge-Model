@@ -47,7 +47,7 @@ $$\frac{dh}{dt} = -ET +B (T + R_h^*) h,$$
 
 where $A$, $B$, $C$, $D$, $E$ and $R_h^*$ are all positive constants. 
 
-Surprisingly but reasonably, the reconstructed ODEs poccess insightful physical meanings. First, the terms, $Dh$ and $ET$, are same as the classical recharge-discharge model, respectively represnting the recharge and discharge process. However, the remaining terms, $A(h-C)T$ and $B(T+R_h^*)h$, are quite different from those in the conventional one. As shown in the figure, the overall effects of these two terms to the system are both positive, so they can be physically regarded as the nonlinear Bjerknes feedback. The cross term $hT$ is contained in both equations and shows the positive effect, which means the growth rate of the Bjerknes feedback is not a constant (like the setting in Jin's model) but depends on the magnitude of another variable. Moreover, the nonlinear positive feedback is also modified by a constant. This constant may contribute to the amplitude asymmetry between El Niño and La Niña. 
+The reconstructed ODEs are quite similar to the nonROM (nonlinear Recharge Oscillator Model) introduced by S K, Kim and S I, An (2020) and poccess insightful physical meanings. First, the terms, $Dh$ and $ET$, are same as the classical recharge-discharge model, respectively represnting the recharge and discharge process. However, the remaining terms, $A(h-C)T$ and $B(T+R_h^*)h$, are quite different from those in the conventional one. As shown in the figure, the overall effects of these two terms to the system are both positive, so they can be physically regarded as the nonlinear Bjerknes feedback. The cross term $hT$ is contained in both equations and shows the positive effect, which means the growth rate of the Bjerknes feedback is not a constant (like the setting in Jin's model) but depends on the magnitude of another variable. Moreover, the nonlinear positive feedback is also modified by a constant. This constant may contribute to the amplitude asymmetry between El Niño and La Niña. 
 
 ## 4.2 Predictions for an El Niño event
 
@@ -144,6 +144,8 @@ Burgers G, Stephenson D B. The “normality” of el niño[J]. Geophysical Resea
 Jin F F. An equatorial ocean recharge paradigm for ENSO. Part I: Conceptual model[J]. Journal of the atmospheric sciences, 1997, 54(7): 811-829.
 
 Wang C. A review of ENSO theories[J]. National Science Review, 2018, 5(6): 813-825.
+
+Kim S K, An S I. Untangling El Niño‐La Niña asymmetries using a nonlinear coupled dynamic index[J]. Geophysical Research Letters, 2020, 47(4): e2019GL085881.
 
 Champion K, Lusch B, Kutz J N, et al. Data-driven discovery of coordinates and governing equations[J]. Proceedings of the National Academy of Sciences, 2019, 116(45): 22445-22451.
 
