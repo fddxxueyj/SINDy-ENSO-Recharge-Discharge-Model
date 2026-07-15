@@ -2,12 +2,12 @@
 
 # 1. Introduction
 
-ENSO is the dominant interannual variability over the equatorial Pacific and has significant impacts to the global climates. Jin Feifei (1997) developed a recharge-discharge oscillator model for ENSO that is represented by
+ENSO is the dominant interannual variability over the equatorial Pacific and has significant impacts on the global climates. Jin Feifei (1997) developed a recharge-discharge oscillator model for ENSO,
 
 $$\frac{dT}{dt} = CT+Dh - \varepsilon T^3,$$
 $$\frac{dh}{dt} = -ET-R_h h,$$
 
-where $T$ represents the SST anomaly in the equatorial eastern Pacific and $h$ represents the thermocline-depth anomaly in the equatorial western Pacific. The parameters $C$, $D$, $\varepsilon$, $E$ and $R_h$ are all positive constants. 
+where $T$ is the SST anomaly in the equatorial eastern Pacific and $h$ represents the thermocline-depth anomaly in the equatorial western Pacific. The parameters $C$, $D$, $\varepsilon$, $E$ and $R_h$ are all positive constants. 
 
 The physical explanations for the equations are clear. $CT$ represents the Bjerknes positive feedback. $Dh$ represents the recharge process, which means the deep thermocline will lead to the growth of the SST in the eastern Pacific. $ET$ is the discharge process. The growth of the SST will cause the westerly wind burst and thus lead to the severdrup transport from tropical Pacific to the subtropical Pacific, which shallows the thermocline. $R_h h$ adds a negative feedback to the change in the depth of thermocline, including turbulence dissipation and mixing. 
 
