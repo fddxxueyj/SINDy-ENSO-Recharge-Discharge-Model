@@ -27,7 +27,7 @@ inspired by Jin's model.
 
 # 3. Data and Deployment
 
-The monthly data are downloaded from GODAS by the script `download_godas.py`. The climatology can be artificially downloaded from `https://www.psl.noaa.gov//data/gridded/data.godas.html`. The notbook `re_discharge_variables.ipynb` is designed to get the time series of $h$ and $T$, which are saved in the file `ENSO_h_sst_series.csv`. To filter out high frequency signals, we operate three-month moving average on the raw trime series. The training data are shown below. 
+The monthly data are downloaded from GODAS by the script `download_godas.py`. The climatology can be artificially downloaded from `https://www.psl.noaa.gov//data/gridded/data.godas.html`. The notbook `re_discharge_variables.ipynb` is designed to get the time series of $h$ and $T$, which are saved in the file `ENSO_h_sst_series.csv`. To filter out high frequency signals, we operate three-month moving average on the raw trime series, following the established convention in ENSO studies (for example, the defination of Oceanic Nino Index). The training data are shown below. 
 
 ![alt text](https://raw.githubusercontent.com/fddxxueyj/SINDy-ENSO-Recharge-Discharge-Model/main/results/sindy_train.png)
 
