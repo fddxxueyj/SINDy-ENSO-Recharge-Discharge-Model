@@ -84,7 +84,7 @@ The eigenvalues for $J(0,0)$ are $\lambda_{1,2} = 0.005 \pm 1.842 i$. Thus the s
 
 ![alt text](https://raw.githubusercontent.com/fddxxueyj/SINDy-ENSO-Recharge-Discharge-Model/main/results/sindy_traj.png)
 
-The trajectories of the reconstructed system suggests the existence of a stable periodic orbit. Trajectories initialized near the origin spiral outward, whereas trajectories starting from sufficiently large amplitudes spiral inward and eventually approach the same closed curve. This behavior indicates the existence of a trapping region and strongly suggests the presence of a stable limit cycle.
+The trajectories of the reconstructed system with some conditonal inital points seem to converge to a stable periodic orbit. Trajectories initialized near the origin spiral outward, whereas trajectories starting from sufficiently large amplitudes spiral inward and eventually approach the same closed curve. This behavior indicates the existence of a trapping region and strongly suggests the presence of a stable limit cycle.
 
 To analyze the radial evolution of the system, we introduce the Lyapunov-like function
 
